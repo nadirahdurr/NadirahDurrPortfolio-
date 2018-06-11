@@ -62,8 +62,8 @@ header */
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: #fff;
-  background: #fff;
+  color: #d37977;
+  background: #d37977;
   border-bottom: 2px solid #ccc;
 }
 /* 
@@ -79,7 +79,7 @@ header */
   text-align: center;
   text-decoration: none; */
   /* background: #4aaaa5; */
-}
+/* } */
 
 /* nav {
   float: absolute;
@@ -91,11 +91,21 @@ header */
 
 .navbar-inverse {
   text-align: center;
-  background-color: rgb(111, 190, 208);
+  background-color: white;
   border:3px;
-  font: rgb(200, 223, 147);
+  
+  
 
 }
+.navbar-inverse 
+.navbar-nav>li>a {
+    color: #4aaaa5;
+}
+.navbar-inverse 
+.navbar-nav>li>a:hover {
+    color: red;
+}
+
 
 div.container-fluid {
 text-align:center;  
@@ -136,12 +146,12 @@ text-align:center;
     color: rgb(111, 190, 208); */
     /* display:inline; */
 /* } */
-.nav a{
-  text-align: center;
-    color: rgb(111, 190, 208);
+/* .nav a{
+  text-align: center; */
+    /* color: rgb(111, 190, 208); */
     /* display:inline-block; */
     /* padding:10px; */
-}
+/* } */
 /* ul.nav.nav-pills {
     margin-right: auto;
 } */
@@ -239,7 +249,7 @@ a {
     
 }
 a:hover {
-    color: #d37977;
+    color: red;
 }
 
 .work h3 {
@@ -405,14 +415,21 @@ header */
 
 .navbar-inverse {
   text-align: center;
-  background-color: rgb(111, 190, 208);
+  /* background-color: rgb(111, 190, 208); */
   border:3px;
   font: rgb(200, 223, 147);
+  display: inline-block;
+  list-style-type: none;
 
 }
 
 div.container-fluid {
 text-align:center;  
+}
+
+#nav ul {
+    display: inline-block;
+    list-style-type: none;
 }
 
 /* nav a {
@@ -452,7 +469,9 @@ text-align:center;
 /* } */
 .nav a{
   text-align: center;
-    color: rgb(111, 190, 208);
+    /* color: rgb(111, 190, 208); */
+    display: inline-block;
+    list-style-type: none;
     /* display:inline-block; */
     /* padding:10px; */
 }
@@ -718,7 +737,7 @@ header */
 
 .navbar-inverse {
   text-align: center;
-  background-color: rgb(111, 190, 208);
+  /* background-color: rgb(111, 190, 208); */
   border:3px;
   font: rgb(200, 223, 147);
 
